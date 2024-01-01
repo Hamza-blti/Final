@@ -418,3 +418,221 @@ margin-top: 50px;
 
 }
 
+
+/* footer ke le ye hai  */
+.footerr{
+    height: 30vh;
+    width: 100%;
+    background-color: #b1040e;
+}
+
+.footerr h2{
+color: #fff;
+font-weight: 800;
+}
+
+.footerr h3{
+    color: #fff;
+
+    }
+
+.footerr h4{
+        color: #fff;
+    
+        }
+.footerr h5{
+            color: #fff;
+        
+            }
+
+.footerr-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#ft-part-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+#ft-part-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+#ft-part-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* research section ke leye hai  */
+
+.research-main{
+    height: 70vh;
+    width: 100%;
+}
+
+ /* reseach main contents ku coloumn mai keya flex se aur align bhi keya  */
+
+ .research-main-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.research-main-2{
+display: flex;
+justify-content: space-between;
+gap: 12vw;
+
+margin-top: 50px;
+
+}
+
+.research-main-3{
+    display: flex;
+justify-content: space-between;
+gap: 6vw;
+margin-top: 30px;
+}
+
+/* ye button ke leye hai  */
+.research-main-1 button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 90px;
+}
+
+.research-main-1 h1{
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.research-main-2 h3{
+    font-weight: 800;
+}
+
+/* events page ke leye  */
+
+.events{
+    height: 80vh;
+    width: 100%;
+    background-color:#f4f4f4 ;
+}
+
+.events button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 90px;
+}
+
+.event-img img{
+    height: 14rem;
+    width: 14rem;
+    margin-top: 30px;
+}
+
+.events-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-1 h2{
+    font-weight: 800;
+font-size: xx-large;
+margin-top: 20px;
+} 
+
+/* ye health images hai us ke size ke leye */
+
+.health{
+
+    height: 80vh;
+    width: 100%;
+}
+.health-images img{
+    height: 10rem;
+    width: 14rem;
+}
+
+/* ye health images ko align krne ke leye */
+.health-images{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    gap:100px;
+}
+
+
+/* Health Care ju word hai uska size aur weight brhanai keleye */
+.health-2 h1{
+    font-weight: 800;
+    font-size: xxx-large;
+    
+}
+
+/* ye ju Health Care section mai lihka hai us mai line height dene keleye */
+.health p{
+    line-height: 20px;
+}
+
+.health-2 button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+
+
+/* health-2 pora div hai jis mai is .academics section ka pora content ai ga  */
+.health-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ye  .health-category ku align krne ke leye */
+.health-category{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+/* ye .health-category mai ju anchor tag hai usku color dene ke leye aur line hatanai keleye */
+.health-category a{
+    text-decoration: none;
+    color: #006cb8;
+}

@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+.main{
+    background-image: url(/images/home_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 92%;
+}
+
+.nav1{
+    /* border: 3px solid red; */
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 1vw;
+}
+
+.nav2 input{
+    
+    border-radius: 10%;
+    background-color: transparent;
+    
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.nav1 h3{
+    margin-left: 15vw;
+
+}
+
+.nav2 p{
+    font-weight: bold;
+    font-size: smaller;
+
+}
+
+.nav3 a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    
+}
+
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 22vw;
+    padding-right: 22vw;
+}
+
+.main h1{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 5vw;
+    color: #fff;
+    
+}
+/* ye university ke name ku screen kai centre mai lanai kai leye keya hai */
+.uni{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+background-color:#b1040e;
+height: 3.8vw;
+}
+.explore a{
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-decoration: none;
+
+}
+
+.mission{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mission h1{
+    font-weight: 800;
+    margin-top: 30px;
+    
+}
+
+.mission p{
+    font-size: 2.5vw;
+    font-family: Helvetica;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 4vw;
+}
+.mission button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.campus-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.campus-news h1{
+    font-weight: 800;
+    margin-top: 30px;
+    
+}
+
+.campus-news button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}

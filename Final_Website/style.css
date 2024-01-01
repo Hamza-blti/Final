@@ -163,3 +163,258 @@ height: 3.8vw;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+
+/* for students studying in library */
+#campus-news-img-1{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)) ,url(/images/p2.jpg);
+    background-size: cover;
+    height: 15em;
+    width: 27em;
+    position: relative;
+    right: 290px;
+    bottom: 1px;
+    
+}
+#campus-news-img-1 p{
+    font-weight: 700;
+    color:white;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+
+/* for students using the microscope */
+#campus-news-img-2{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)) ,url(/images/p3.jpg);
+    background-size: cover;
+    height: 15em;
+    width: 27em;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+    
+}
+#campus-news-img-2 p{
+    font-weight: 700;
+    color:white;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+/* campus news four images ke leye  */
+
+/* these two images are close to each other */
+#img-1{
+    height: 7rem;
+    width: 12rem;
+    position: absolute;
+    top: 1110px;
+    left: 700px;
+
+}
+#img-2{
+    height: 7rem;
+    width: 12rem;
+    position: absolute;
+    top: 1110px;
+    left: 900px;
+
+}
+
+/* these two images are close to each other */
+#img-3{
+    height: 7rem;
+    width: 12rem;
+    position: absolute;
+    top: 1350px;
+    left: 145px;
+
+}
+#img-4{
+    height: 7rem;
+    width: 12rem;
+    position: absolute;
+    top: 1350px;
+    left: 350px;
+
+}
+
+/* image ke text ke lye  */
+
+/* image 1 ke text ke leye */
+#for-img-1{
+    background-color: #fff;
+    height: 5rem;
+    width: 12rem;
+    position: absolute;
+    top: 1221px;
+    left: 700px;
+}
+
+#for-img-1 p{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* image 2 ke text ke leye */
+#for-img-2{
+    background-color: #fff;
+    height: 5rem;
+    width: 12rem;
+    position: absolute;
+    top: 1221px;
+    left: 900px;
+}
+
+#for-img-2 p{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* image 3 ke text ke leye */
+#for-img-3{
+    background-color: #fff;
+    height: 5rem;
+    width: 12rem;
+    position: absolute;
+    top: 1460px;
+    left: 145px;
+}
+
+#for-img-3 p{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* image 4 ke text ke leye */
+#for-img-4{
+    background-color: #fff;
+    height: 5rem;
+    width: 12rem;
+    position: absolute;
+    top: 1460px;
+    left: 350px;
+
+}
+
+#for-img-4 p{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* academics section ke leye */
+
+/* section ke height width ke lye */
+.academics{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+}
+
+/* degree programmes ke name ke leye aor unhai set krne keleye  , ju kai list mai dalai hai*/
+.degrees{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    flex: wrap;
+    color: #006cb8;
+    margin-top: 5px;
+}
+
+/* .academics-2 pora div hai jis mai is .academics section ka pora content ai ga  */
+.academics-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ye .academics-2 mai ju button tha us kai leye hai  */
+.academics-2 button{
+    background-color: #b1040e;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    width: 25vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* ye degree images hai us ke size ke leye */
+.degrees-images img{
+    height: 10rem;
+    width: 14rem;
+}
+
+/* ye degree images ko align krne ke leye */
+.degrees-images{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    gap: 150px;
+}
+
+/* ye degree .degrees-category ku align krne ke leye */
+.degrees-category{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+/* ye .degrees-category mai ju anchor tag hai usku color dene ke leye aur line hatanai keleye */
+.degrees-category a{
+    text-decoration: none;
+    color: #006cb8;
+}
+
+/* Academic ju word hai uska size aur weight brhanai keleye */
+.academics-2 h1{
+    font-weight: 800;
+    font-size: xxx-large;
+    
+}
+
+/* ye ju academic section mai lihka hai us mai line height dene keleye */
+.academics p{
+    line-height: 20px;
+}
+
+/* ju degrees hai uskai upr wlai text ku set krne keleye */
+#degree-tagline{
+margin-top: 50px;
+}
+
+/* meet alexa wla ju section hai us mai image add hui hai aur size aur alignment */
+.meet-me{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/meet.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* margin deya hai takai align hu jai */
+.meet-me h3{
+    margin-top: 220px;
+    font-weight: 800;
+}
+
+/* meet alexa mai ju text hai usku align kre ke leye keya hai  */
+.meet-me a{
+    text-decoration: none; 
+    color: white; 
+    font-weight: 700;
+
+}
+
